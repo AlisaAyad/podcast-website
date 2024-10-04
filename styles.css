@@ -1,0 +1,102 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li {
+    justify-content: center;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+h1 {
+    font-size: 3em;
+}
+
+a {
+    background-color: lightgray;
+    padding: 1em;
+    text-decoration: none;
+    transition: 350ms ease;
+}
+
+a:hover {
+    background-color: gray;
+    justify-content: center space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style: none;
+
+}
+
+h2 {
+    text-align: center;
+    background-color: lightgray;
+    padding: 1em;
+    text-decoration: none;
+    width: 5em;
+    margin: 2em auto;
+}
+
+.index p,
+.aboutus p {
+    display: flex;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+main article div p {
+    text-align: start;
+}
+
+img {
+    width: 50px;
+    padding: 1em;
+}
+
+main img {
+    width: 10em;
+}
+
+header section:first-child {
+    display: flex;
+    justify-content: center;
+    margin: 2em auto;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+header {
+    padding: 1em;
+}
+
+.episodes article {
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+}
+
+main article div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+article {
+    margin: 2em;
+}
